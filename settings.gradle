@@ -1,0 +1,3 @@
+include ':vrittilibrary'
+include ':app'
+rootProject.name = "VrittiLibrary"

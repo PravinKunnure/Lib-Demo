@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VrittiLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/VrittiLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VrittiLibrary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VrittiLibrary.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vrittilibrary/VrittiLibrary.vrittilibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/vrittilibrary/VrittiLibrary.vrittilibrary.iml" />
+    </modules>
+  </component>
+</project>
