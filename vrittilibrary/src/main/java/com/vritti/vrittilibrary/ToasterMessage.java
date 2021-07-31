@@ -4,13 +4,17 @@ import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import androidx.core.graphics.drawable.DrawableCompat;
 
 public class ToasterMessage {
 
@@ -51,6 +55,10 @@ public class ToasterMessage {
             btnTag_1.setPadding(5,5,5,5);
             btnTag_1.setTextColor(Color.WHITE);
 
+            Drawable buttonDrawable = btnTag_1.getBackground();
+            buttonDrawable = DrawableCompat.wrap(buttonDrawable);
+            DrawableCompat.setTint(buttonDrawable, Color.BLUE);
+            btnTag_1.setBackground(buttonDrawable);
             row.addView(btnTag_1);
 
 
@@ -76,6 +84,12 @@ public class ToasterMessage {
             btnTag_2.setGravity(Gravity.CENTER);
             btnTag_2.setPadding(5,5,5,5);
             btnTag_2.setTextColor(Color.WHITE);
+
+            Drawable buttonDrawable2 = btnTag_2.getBackground();
+            buttonDrawable2 = DrawableCompat.wrap(buttonDrawable2);
+            DrawableCompat.setTint(buttonDrawable2, Color.BLUE);
+            btnTag_2.setBackground(buttonDrawable2);
+            row.addView(btnTag_2);
 
             row.addView(btnTag_2);
 
@@ -104,6 +118,11 @@ public class ToasterMessage {
             btnTag_3.setGravity(Gravity.CENTER);
             btnTag_3.setPadding(5,5,5,5);
             btnTag_3.setTextColor(Color.WHITE);
+
+            Drawable buttonDrawable3 = btnTag_3.getBackground();
+            buttonDrawable3 = DrawableCompat.wrap(buttonDrawable3);
+            DrawableCompat.setTint(buttonDrawable3, Color.BLUE);
+            btnTag_3.setBackground(buttonDrawable3);
 
             row.addView(btnTag_3);
 
