@@ -91,7 +91,6 @@ public class ToasterMessage {
             btnTag_2.setBackground(buttonDrawable2);
             row.addView(btnTag_2);
 
-            row.addView(btnTag_2);
 
             btnTag_2.setOnClickListener(new View.OnClickListener() {
                 @Override
