@@ -58,6 +58,7 @@ public class ToasterMessage {
                 @Override
                 public void onClick(View v) {
                     //Button 1
+                    Log.e("LIBBUTTON-1","Clicked");
                     Intent i2 = new Intent();
                     i2.setComponent(new ComponentName("com.vritti.application_2","com.vritti.application_2.MainActivity"));//the destination packageName
                     i2.putExtra("media", "stop");
@@ -82,6 +83,8 @@ public class ToasterMessage {
                 @Override
                 public void onClick(View v) {
                     //Button2
+                    Log.e("LIBBUTTON-2","Clicked");
+
                     Intent i2 = new Intent();
                     i2.setComponent(new ComponentName("com.vritti.application_2","com.vritti.application_2.MainActivity"));//the destination packageName
                     i2.putExtra("media", "play");
@@ -108,6 +111,7 @@ public class ToasterMessage {
                 @Override
                 public void onClick(View v) {
                     //Button3
+                    Log.e("LIBBUTTON-3","Clicked");
 
                     Intent i2 = new Intent();
                     i2.setComponent(new ComponentName("com.vritti.application_2","com.vritti.application_2.MainActivity"));//the destination packageName
